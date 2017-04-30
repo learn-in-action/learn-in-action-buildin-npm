@@ -1,7 +1,7 @@
-import path from 'path'
+const path = require('path')
 
-export const dependences = []
-export const chapters = [
+module.exports.dependences = []
+module.exports.chapters = [
   {
     title: '安装NPM(NodeJS)',
     steps: [
